@@ -438,7 +438,7 @@ paths:
           name: processResultsParams
           required: true
           schema:
-            $ref: './audit-components.yml#/components/schemas/ProcessResultsRequest'
+            $ref: '#/components/schemas/ProcessResultsRequest'
       responses:
         200:
           description: OK
