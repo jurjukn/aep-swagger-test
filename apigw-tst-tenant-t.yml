@@ -76,7 +76,7 @@ paths:
           name: recipientsQuery
           required: true
           schema:
-            $ref: './delivery-components.yml#/components/schemas/RecipientsQuery'
+            $ref: '#/components/schemas/RecipientsQuery'
       responses:
         200:
           description: OK
