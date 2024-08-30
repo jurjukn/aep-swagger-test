@@ -74,7 +74,7 @@ paths:
           name: recipientsQuery
           required: true
           schema:
-            $ref: './delivery-components.yml#/components/schemas/RecipientsQuery'
+            $ref: '#/components/schemas/RecipientsQuery'
       responses:
         200:
           description: OK
@@ -436,7 +436,7 @@ paths:
           name: processResultsParams
           required: true
           schema:
-            $ref: './audit-components.yml#/components/schemas/ProcessResultsRequest'
+            $ref: '#/components/schemas/ProcessResultsRequest'
       responses:
         200:
           description: OK
@@ -724,7 +724,7 @@ paths:
         - schemas
       x-since-version: v1.0
       summary: Get all message types with schemas configured
-      operationId: getMessageTypes
+      operationId: getSchemasConfiguredMessageTypes
       responses:
         200:
           description: OK
