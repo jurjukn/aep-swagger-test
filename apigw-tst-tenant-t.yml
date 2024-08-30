@@ -726,7 +726,7 @@ paths:
         - schemas
       x-since-version: v1.0
       summary: Get all message types with schemas configured
-      operationId: getMessageTypes
+      operationId: getSchemasConfiguredMessageTypes
       responses:
         200:
           description: OK
