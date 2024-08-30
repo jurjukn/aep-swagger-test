@@ -3,8 +3,8 @@ info:
   title: "apigw-aep-tst-tenant-t"
   description: "apigw-aep-tst - API "
   version: "1.0"
-servers:
-  - url: https://naxsvmayx1.execute-api.eu-west-1.amazonaws.com/dev
+servers: #include-in-diff
+  - url: https://naxsvmayx1.execute-api.eu-west-1.amazonaws.com/dev #include-in-diff
 paths:
 
   /aep/delivery/{processId}:
