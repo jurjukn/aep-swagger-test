@@ -1283,27 +1283,6 @@ components:
     Precondition:
       type: object
       description: Precondition
-      properties:
-        previousService:
-          type: string
-          description: The name of the previous service
-        success:
-          type: boolean
-        results:
-          type: array
-          items:
-            $ref: '#/components/schemas/PreconditionResult'
-
-    PreconditionResult:
-      type: object
-      description: PreconditionResult
-      properties:
-        key:
-          type: string
-        value:
-          type: string
-        operator:
-          type: string
 
     SchemasResponse:
       type: object
